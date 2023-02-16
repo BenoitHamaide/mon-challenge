@@ -1,0 +1,52 @@
+.app {
+  width: 500px;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.app img {
+  max-width: 150px;
+}
+
+.app h1
+{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px 0 40px 0;
+}
+.app .container-header{
+  border: 1px solid grey;
+margin-bottom: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+.app .container-main{
+  border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+.app .main-title{
+  padding: 0.4rem;
+}
+.app .title-list{
+  padding: 0.4rem;
+}
+.app ul{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0.8rem;
+    width: 90%;
+}
+.app li{
+background: rgba(173, 165, 165, 0.171);
+padding: 0.3rem;
+margin: 0.3rem;
+border-radius: 5px;
+width: 100%;
+text-align: left;
+}
