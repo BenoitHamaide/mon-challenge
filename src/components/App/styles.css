@@ -66,14 +66,7 @@ color: blue;
   border-radius: 5px;
 }
 .app .texteBarré{
-  background: rgba(173, 165, 165, 0.356);
-padding: 0.4rem;
-margin: 0.4rem;
-border-radius: 5px;
-width: 100%;
-text-align: left;
-color: blue;
-text-decoration: dashed;
+text-decoration:line-through;
 }
 
 .app .footer{

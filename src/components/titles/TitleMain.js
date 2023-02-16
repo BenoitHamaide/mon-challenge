@@ -1,8 +1,8 @@
 import React from 'react';
 
 const TitleMain = () => {
-const textBarre = ()=>{
-  console.log("texte barré");
+const textBarre = (e) => {
+  e.target.classList.toggle('texteBarré');
 }
 
   return (
@@ -10,9 +10,9 @@ const textBarre = ()=>{
     <h2 className='main-title'>Mémo :</h2>
     <h2 className='title-list'>Liste de courses</h2>
     <ul>
-        <li ><button onClick={()=> textBarre()}>farine</button></li>
-        <li ><button onClick={()=> textBarre()}>lait</button></li>
-        <li ><button onClick={()=> textBarre()}>oeuf</button></li>
+        <li ><button onClick={(e)=> textBarre(e)}>farine</button></li>
+        <li ><button onClick={(e)=> textBarre(e)}>lait</button></li>
+        <li ><button onClick={(e)=> textBarre(e)}>oeuf</button></li>
       </ul>
     </div>
     
