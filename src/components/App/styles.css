@@ -7,7 +7,9 @@
 .app img {
   max-width: 150px;
 }
-
+.app .body{
+  background: yellow;
+}
 .app h1
 {
   font-size: 2rem;
@@ -52,6 +54,18 @@ margin-bottom: 20px;
 }
 .app li{
 background: rgba(173, 165, 165, 0.356);
+padding: 0.4rem;
+margin: 0.4rem;
+border-radius: 5px;
+width: 100%;
+text-align: left;
+color: blue;
+}
+.app .form{
+  width: 100%;
+
+}
+.app .form li {
 padding: 0.4rem;
 margin: 0.4rem;
 border-radius: 5px;

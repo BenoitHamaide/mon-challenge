@@ -1,4 +1,5 @@
 import React from 'react';
+import AddFoodForm from '../Formulaire/AddFoodForm';
 
 const TitleMain = () => {
 const textBarre = (e) => {
@@ -10,10 +11,13 @@ const textBarre = (e) => {
     <h2 className='main-title'>Mémo :</h2>
     <h2 className='title-list'>Liste de courses</h2>
     <ul>
-        <li ><button onClick={(e)=> textBarre(e)}>farine</button></li>
-        <li ><button onClick={(e)=> textBarre(e)}>lait</button></li>
-        <li ><button onClick={(e)=> textBarre(e)}>oeuf</button></li>
+    {
+  ["farine", "lait", "oeuf"].map((item) => (
+    <li><button onClick={(e)=> textBarre(e)}>{item}</button></li>
+  ))
+}
       </ul>
+      <AddFoodForm/>
     </div>
     
   );
